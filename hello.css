@@ -1,0 +1,316 @@
+#maindiv{
+    
+    width:700px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#contacth{
+    display: inline;
+    
+}
+
+#filterdiv{
+display: inline;
+border:1px solid ;
+border-color: rgb(86, 113, 138);
+border-radius: 5px;
+
+}
+
+#searchicon{
+display: inline;
+color:grey;
+}
+
+#input{
+display: inline;
+border: 0px;
+}
+
+#rolesdd{
+    display: inline;
+    border:1px solid ;
+    border-color: rgb(86, 113, 138);
+border-radius: 5px;
+margin-left: 5px;
+margin-right: 220px;
+}
+
+#exporticon{
+    display: inline;
+    margin-right: 5px;
+}
+
+#newmemberbutton{
+display: inline;
+background-color: white;
+border:1px solid rgb(167, 163, 163);
+border-radius: 5px;
+
+
+
+}
+
+
+#exportbutton{
+    display: inline;
+background-color: white;
+border:1px solid rgb(167, 163, 163);
+border-radius: 5px;
+
+}
+
+#plusicon{
+    display: inline;
+    margin-right: 5px;
+}
+
+
+
+/*table starts here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+#maintable{
+    
+    border: 1px solid rgb(207, 202, 202);
+    border-radius: 5px;
+    margin-left: 30px;
+    width:702px;
+}
+
+
+th{
+
+    background-color: rgba(109, 203, 247,0.2);
+    padding:0px;
+}
+
+td{
+    
+    padding:5px;
+    width:200px;
+}
+
+/*Personal Informations !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+#ibrahimdiv{
+    display: inline;
+    margin-left: 10px;
+    
+}
+
+#ibrahim{
+    display: inline;
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    
+}
+
+#ibrahimparagraph{
+    display: inline;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 5px;
+    
+    
+}
+
+#ibrahimemail{
+    display: inline;
+    color:grey;
+    font-size: 10px;
+
+}
+
+#ibrahimadmin{
+    display: inline;
+    
+    font-size: 15px;
+    
+}
+
+#Active{
+    display: inline;
+    margin-left: 75px;
+}
+
+#ibpay{
+    display: inline;
+    margin-left: 75px;
+}
+
+/*Here Ibrahim row ends!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/ 
+
+#alidiv{
+    display: inline;
+    margin-left: 10px;
+    
+}
+
+#ali{
+    display: inline;
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    
+}
+
+#aliparagraph{
+    display: inline;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 5px;
+    
+    
+}
+
+#alimail{
+    display: inline;
+    color:grey;
+    font-size: 10px;
+
+}
+
+#aliadmin{
+    display: inline;
+    
+    font-size: 15px;
+}
+
+#Active{
+    display: inline;
+    margin-left: 75px;
+}
+
+#alipay{
+    display: inline;
+    margin-left: 75px;
+}
+/*Here Ali row ends!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+#hasandiv{
+    display: inline;
+    margin-left: 10px;
+    
+}
+
+#hasan{
+    display: inline;
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    
+}
+
+#hasanparagraph{
+    display: inline;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 5px;
+    
+    
+}
+
+#hasanmail{
+    display: inline;
+    color:grey;
+    font-size: 10px;
+
+}
+
+#hasanadmin{
+    display: inline;
+    
+    font-size: 15px;
+}
+
+#Active{
+    display: inline;
+    margin-left: 75px;
+}
+
+#hasanpay{
+    display: inline;
+    margin-left: 75px;
+}
+
+/*Here Hasan row ends!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+#abdulnoordiv{
+    display: inline;
+    margin-left: 10px;
+    
+}
+
+#abdulnoor{
+    display: inline;
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    
+}
+
+#abdulnoorparagraph{
+    display: inline;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 5px;
+    
+    
+}
+
+#abdulnoormail{
+    display: inline;
+    color:grey;
+    font-size: 10px;
+
+}
+
+#abdulnooradmin{
+    display: inline;
+    
+    font-size: 15px;
+}
+
+#Active{
+    display: inline;
+    margin-left: 75px;
+}
+
+#abdulnoorpay{
+    display: inline;
+    margin-left: 75px;
+}
+
+/*Here abdulnoor row ends!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+#members{
+    display: inline;
+    color:grey;
+    margin-left: 20px;
+}
+
+#previous{
+    display: inline;
+    background-color: white;
+    border:1px solid rgb(167, 163, 163);
+    border-radius: 5px;
+    margin-left: 525px;
+}
+
+#next{
+    display: inline;
+    background-color: white;
+    border:1px solid rgb(167, 163, 163);
+    border-radius: 5px;
+}
+
+.editbutton{
+    color:blue;
+    font-weight: bold;
+    border:0px solid white;
+    background-color: white;
+    
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="homework4.css">
+    <script src="https://kit.fontawesome.com/e3cf1d50e1.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <div id="maindiv">
+        <h1 id="contacth">Contact</h1>
+
+        <br><br>
+
+        <div id="filterdiv">
+            <i class="fas fa-search" id="searchicon"></i>
+            <input placeholder="Filter by name or email..." id="input">
+        </div>  
+
+        <select name="roles" id="rolesdd">
+            <option>All roles</option>
+            
+        </select>
+        <button id="newmemberbutton"> <i class="fas fa-plus" id="plusicon"></i>New member</button>
+        <button id="exportbutton"> <i class="fas fa-long-arrow-alt-up" id="exporticon"></i>Export CSV</button>
+        
+    </div>
+<!--From here the table starts !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+    
+<table id="maintable">
+        
+        <th>MEMBER</th> <th>ROLE</th><th>STATUS</th><th>AMOUNT EARNED</th>
+        
+    <tr id="firstrow"> 
+            <td>
+                <img src="ibrahim.jpg" id="ibrahim" >
+                <div id="ibrahimdiv">
+                    <p id="ibrahimparagraph">Ibrahim Abdulkader</p>
+                    <br>
+                    <p id="ibrahimemail">ibrahemmp8@gmail.com</p>
+                </div>
+            </td>
+
+            <td >
+
+                <p id="ibrahimadmin">Admin</p>
+            </td>
+
+            <td>
+                <p id="Active">Active</p>
+            </td>
+
+            <td >
+                <p id="ibpay">$100,000</p>
+            </td>
+
+            <td >
+                <button class="editbutton">Edit</button>
+            </td>
+    </tr>
+    
+<!--First row ends here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+    <tr id="secondrow"> 
+            <td>
+                <img src="alimehasin.jpg" id="ali" >
+                <div id="alidiv">
+                    <p id="aliparagraph">Ali Mehasin</p>
+                    <br>
+                    <p id="alimail">ali@gmail.com</p>
+                </div>
+            </td>
+
+            <td >
+
+                <p id="aliadmin">Marketing Director</p>
+            </td>
+
+            <td>
+                <p id="Active">Reviewing</p>
+            </td>
+
+            <td >
+                <p id="alipay">$900,000</p>
+            </td>
+            <td >
+                <button class="editbutton">Edit</button>
+            </td>
+    </tr>
+<!--Second row ends here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!--> 
+
+    <tr id="thirdrow"> 
+            <td>
+                <img src="hasan.jpg" id="hasan" >
+                <div id="hasandiv">
+                    <p id="hasanparagraph">Hasan Refaat</p>
+                    <br>
+                    <p id="hasanmail">hasan@gmail.com</p>
+                </div>
+            </td>
+
+            <td >
+
+                <p id="hasanadmin">Front desk officer</p>
+            </td>
+
+            <td>
+                <p id="Active">Reviewing</p>
+            </td>
+
+            <td >
+                <p id="hasanpay">$700,000</p>
+            </td>
+            <td >
+                <button class="editbutton">Edit</button>
+            </td>
+    </tr>
+<!--Third row ends here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+    <tr id="fourthdrow"> 
+        <td>
+            <img src="abdulnoor.jpg" id="abdulnoor" >
+            <div id="abdulnoordiv">
+                <p id="abdulnoorparagraph">Abdulnoor</p>
+                <br>
+                <p id="abdulnoormail">abdulnoor@gmail.com</p>
+            </div>
+        </td>
+
+        <td >
+
+            <p id="abdulnooradmin">software engineer</p>
+        </td>
+
+        <td>
+            <p id="Active">Active</p>
+        </td>
+
+        <td >
+            <p id="abdulnoorpay">$100,000</p>
+        </td>
+        <td >
+            <button class="editbutton">Edit</button>
+        </td>
+    </tr>
+<!--Fourth row ends here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+</table>
+
+        <br><br>
+
+    <p id="members">
+        4 members 
+    </p>
+    <button id="previous">Previous</button>
+    <button id="next">Next</button>
+</body>
+
+
+
+
+
+</html>
